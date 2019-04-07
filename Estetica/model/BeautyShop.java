@@ -6,9 +6,7 @@ public class BeautyShop{
 
 	private Employee emplo2;
 
-	//Relations
 
-	private Employee emple;
 
 	//Methods
 
@@ -23,7 +21,7 @@ public class BeautyShop{
 
 	public Employee getEmplo1(){
 
-		return emplo1
+		return emplo1;
 	}
 
 	public void setEmplo1(Employee emplo1){
