@@ -12,12 +12,16 @@ public class Employee{
 
 	//Relations
 
-	private Service servi;
+	private Service s1;
+
+	private Service s2;
+
+	private Service s3;
 
 	//Metodos
 
 
-	public Employee(String name, int id, String post, int admissionDate){
+	public Employee(String name, int id, String post, int admissionDate, Service s1, Service s2, Service s3){
 
 		this.name = name;
 

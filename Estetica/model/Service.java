@@ -2,6 +2,12 @@ package model;
 
 public class Service{
 
+	public final static String CORTE_DE_CABELLO = "Corte de cabello";
+
+	public final static String MANICURE = "Manicure";
+
+	public final static String PEDICURE = "Pedicure";
+
 	private String name;
 
 	private int ntimes;
@@ -62,5 +68,10 @@ public class Service{
 	public void setTaxCollection(int taxCollection){
 
 		this.taxCollection = taxCollection;
+	}
+
+	public promedioDeIngresoPorServicio(){
+
+		
 	}
 }
