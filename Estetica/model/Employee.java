@@ -30,6 +30,12 @@ public class Employee{
 		this.post = post;
 
 		this.admissionDate = admissionDate;
+
+		this.s1 = s1;
+
+		this.s2 = s2;
+
+		this.s3 = s3;
 	}
 
 	public String getName(){
@@ -70,6 +76,36 @@ public class Employee{
 	public void setAdmissionDate(int admissionDate){
 
 		this.admissionDate = admissionDate;
+	}
+
+	public Service getS1(){
+
+		return s1;
+	}
+
+	public void setS1(Service s1){
+
+		this.s1 = s1;
+	}
+
+	public Service getS2(){
+
+		return s2;
+	}
+
+	public void setS2(Service s2){
+
+		this.s2 = s2;
+	}
+
+	public Service getS3(){
+
+		return s1;
+	}
+
+	public void setS3(Service s3){
+
+		this.s3 = s3;
 	}
 
 

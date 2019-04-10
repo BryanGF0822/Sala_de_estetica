@@ -70,8 +70,8 @@ public class Service{
 		this.taxCollection = taxCollection;
 	}
 
-	public promedioDeIngresoPorServicio(){
+	/*public promedioDeIngresoPorServicio(){
 
 		
-	}
+	}*/
 }

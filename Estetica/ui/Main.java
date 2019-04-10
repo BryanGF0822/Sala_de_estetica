@@ -79,7 +79,27 @@ public class Main{
 
 					case 1:
 
-						System.out.println();
+						System.out.println("Seleciones el empleado: ");
+
+						System.out.println("1. " + control.getEmplo1().getName());
+						System.out.println("2. " + control.getEmplo2().getName());
+						int employeeOption = sn.nextInt();
+
+
+						System.out.println("Seleccione el tipo de servicio: ");
+
+						System.out.println("1. " + Service.CORTE_DE_CABELLO);
+						System.out.println("2. " + Service.MANICURE);
+						System.out.println("3. " + Service.PEDICURE);
+						int serviceOption = sn.nextInt();
+
+
+						System.out.println("Ingrese la cantidad de veces que se realizo el servicio: ");
+						int amountTimesService= sn.nextInt();
+
+						control.registerService(serviceOption, employeeOption, amountTimesService);
+
+
 						break;
 
 					case 2:
@@ -115,11 +135,11 @@ public class Main{
 
 	public void init(){
 
-		Service s3 = new Service ("Pedicure", 0, 9000, 2250);
+		Service s3 = new Service ("Pedicure", 0, 0, 0);
 
-		Service s2 = new Service ("Manicure", 0, 7000, 2450);
+		Service s2 = new Service ("Manicure", 0, 0, 0);
 
-		Service s1 = new Service ("Corte de cabello", 0, 8000, 1600);
+		Service s1 = new Service ("Corte de cabello", 0, 0, 0);
 
 		Employee emplo2 = new Employee ("Alexandra", 6701722, "empleada", 2017, s1, s2, s3);
 
